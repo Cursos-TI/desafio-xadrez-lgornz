@@ -17,16 +17,6 @@ int main() {
         printf("Movendo a rainha para a esquerda\n");
     }
     
-    int movimentocompleto = 1;
-
-    while (movimentocompleto--)
-        {
-            for (int i = 0; i < 2; i++) {
-                printf("Movendo o cavalo para baixo\n");
-
-            }
-            printf("Depois movendo o cavalo para a esquerda\n");
-        }
 }
 
 
