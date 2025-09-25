@@ -2,7 +2,7 @@
  
 int main() {
     for (int i = 1; i <= 5; i++) {
-      printf("Torre movendo a Direita\n");
+      printf("Movendo o bispo para cima e direita\n");
     }
    
     return 0;
