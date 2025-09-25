@@ -1,11 +1,12 @@
 #include <stdio.h>
  
 int main() {
-    for (int i = 1; i <= 5; i++) {
-      printf("Movendo o bispo para cima e direita\n");
-    }
+     int i = 1;
    
-    return 0;
+    while (i <= 5) {
+        printf("Movendo a torre para a direita\n");
+        i++;
+    }
 }
 
 
