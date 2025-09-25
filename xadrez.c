@@ -3,10 +3,10 @@
 int main() {
      int i = 1;
    
-    while (i <= 5) {
-        printf("Movendo a torre para a direita\n");
+   do {
+        printf("Movendo a rainha para a esquerda\n");
         i++;
-    }
+    } while (i <= 8);
 }
 
 
