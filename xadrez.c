@@ -4,7 +4,7 @@ int main() {
      int i = 1;
    
     do {
-        printf("Movendo o bispo para a cima a direita\n");
+        printf("Movendo o bispo para cima a direita\n");
         i++;
     } while (i <= 5);
     i = 1;
@@ -16,6 +16,17 @@ int main() {
     for (int i = 1; i <= 8; i++) {
         printf("Movendo a rainha para a esquerda\n");
     }
+    
+    int movimentocompleto = 1;
+
+    while (movimentocompleto--)
+        {
+            for (int i = 0; i < 2; i++) {
+                printf("Movendo o cavalo para baixo\n");
+
+            }
+            printf("Depois movendo o cavalo para a esquerda\n");
+        }
 }
 
 
